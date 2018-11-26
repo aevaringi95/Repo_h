@@ -6,12 +6,12 @@ from torch.autograd import Variable
 import time
 from random import randrange
 
-w1 = torch.load('NN/w1_trained_60000.pth')
-w2 = torch.load('NN/w2_trained_60000.pth')
-w3 = torch.load('NN/w3_trained_60000.pth')
-b1 = torch.load('NN/b1_trained_60000.pth')
-b2 = torch.load('NN/b2_trained_60000.pth')
-b3 = torch.load('NN/b3_trained_60000.pth')
+w1 = torch.load('w1_trained_60000.pth')
+w2 = torch.load('w2_trained_60000.pth')
+w3 = torch.load('w3_trained_60000.pth')
+b1 = torch.load('b1_trained_60000.pth')
+b2 = torch.load('b2_trained_60000.pth')
+b3 = torch.load('b3_trained_60000.pth')
 device = torch.device('cpu')
 encSize =  8*24+4
 
